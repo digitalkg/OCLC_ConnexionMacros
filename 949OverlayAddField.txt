@@ -1,0 +1,21 @@
+'MacroName:949
+'MacroDescription:
+
+Sub Main
+
+   Dim CS As Object
+   Set CS = CreateObject("Connex.Client")
+
+   CS.AddFieldLine  5,""
+
+   CS.InsertText "949"
+   
+   CS.KeyRight
+   
+   CS.KeyRight
+
+   CS.InsertText "*ov=.b;"
+   
+   CS.Reformat
+
+End Sub
