@@ -1,3 +1,5 @@
+'To get this to work efficiently, map it to your "Delete" key in the keymap function in OCLC Connexion.
+
 'MacroName:DeleteField-
 'MacroDescription:DeleteField
 
